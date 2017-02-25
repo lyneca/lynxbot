@@ -1,0 +1,26 @@
+{
+  "name": "lynxbot",
+  "version": "1.0.0",
+  "description": "A Facebook Messenger bot that takes its responses from Google Sheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyneca/lynxbot.git"
+  },
+  "author": "Lyneca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyneca/lynxbot/issues"
+  },
+  "homepage": "https://github.com/lyneca/lynxbot#readme",
+  "dependencies": {
+    "facebook-chat-api": "^1.3.0",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^17.1.0",
+    "install": "^0.8.7",
+    "npm": "^4.3.0"
+  }
+}
